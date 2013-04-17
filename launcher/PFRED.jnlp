@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://www.pfred.org/gui" href="http://www.pfred.org/gui/PFRED.jnlp">
+    <information>
+        <title>PFRED</title>
+        <vendor>pfred.org</vendor>
+        <homepage href="http://www.pfred.org/pfred"/>
+        <description>RNAi Engineering Design</description>
+        <description kind="short">PFRED</description>
+        <icon href="pfred.jpg" kind="default"/>
+        <association extensions="fred" mime-type="x-application/fred"/>
+        <offline-allowed/>
+        <shortcut online="true">
+            <desktop/>
+            <menu submenu="pfred"/>
+        </shortcut>
+    </information>
+
+    <resources>
+        <j2se version="1.5+" java-vm-args="-Xms256M -Xmn128M -Xmx256M"/>
+        <jar href="PFRED.jar" main="true" download="eager"/>
+        <jar href="lib/1_core.jar" download="eager"/>
+        <jar href="lib/2_pme.jar" download="eager"/>
+        <jar href="lib/3_PFREDAxisClient.jar" download="eager"/>
+        <jar href="lib/4_jfreechart.jar" download="eager"/>
+    </resources>
+    <security>
+      <all-permissions/>
+    </security>
+    <application-desc main-class="org.pfred.PFREDView"/>
+</jnlp>
+        
