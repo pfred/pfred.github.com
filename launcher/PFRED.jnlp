@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jnlp spec="1.0+" codebase="http://www.pfred.org/gui" href="http://www.pfred.org/gui/PFRED.jnlp">
+<jnlp spec="1.0+" codebase="http://pfred.github.com/launcher" href="http://pfred.github.com/launcher/PFRED.jnlp">
     <information>
         <title>PFRED</title>
         <vendor>pfred.org</vendor>
-        <homepage href="http://www.pfred.org/pfred"/>
+        <homepage href="http://pfred.github.com"/>
         <description>RNAi Engineering Design</description>
         <description kind="short">PFRED</description>
         <icon href="pfred.jpg" kind="default"/>
