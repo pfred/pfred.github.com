@@ -11,7 +11,7 @@
         <offline-allowed/>
         <shortcut online="true">
             <desktop/>
-            <menu submenu="org.pfred"/>
+            <menu submenu="pfred.org"/>
         </shortcut>
     </information>
 
